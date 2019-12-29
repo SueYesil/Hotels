@@ -22,7 +22,7 @@ public class HotelsHomeSD {
     @Given("^I am on default locations search result screen$")
     public void i_am_on_default_locations_search_result_screen()  {
        hotelhomePage.searchCity();
-       hotelhomePage.checkInAndOut();
+     //  hotelhomePage.checkInAndOut();
        hotelhomePage.children();
     }
 

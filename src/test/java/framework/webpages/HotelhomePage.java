@@ -43,13 +43,13 @@ public class HotelhomePage extends ElementUtil {
     }
 
 
-    public void checkInAndOut(){
-       clickOn(clickIn);
-       clickOn(checkInDate);
-       clickOn(checkOutclick);
-       clickOn(checkOutDate);
-
-    }
+//    public void checkInAndOut(){
+//       clickOn(clickIn);
+//       clickOn(checkInDate);
+//       clickOn(checkOutclick);
+//       clickOn(checkOutDate);
+//
+//    }
     public void children(){
 //        waitForElementPresent(childrenBtn);
 //        selectFromDropdown( childrenBtn, "2");
